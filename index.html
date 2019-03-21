@@ -2,56 +2,582 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>wonder.vn – Kiến trúc, Nội thất và Xây dựng</title>
-    <link rel="icon" href="https://wonder.vn/wp-content/uploads/2017/10/cropped-logo-2-32x32.png" sizes="32x32">
-    <!-- Link css TachYon -->
-    <link rel="stylesheet" href="./lib/tachyons/css/tachyons.min.css">
-    <!-- Link Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- My CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>wonder.vn – Kiến trúc, Nội thất và Xây dựng</title>
+  <link rel="icon" href="https://wonder.vn/wp-content/uploads/2017/10/cropped-logo-2-32x32.png" sizes="32x32"/>
+  <!-- Link css TachYon -->
+  <link rel="stylesheet" href="./css/tachyons.min.css"/>
+  <!-- Link Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="./css/swiper.min.css" />
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
-
-<body>
-    <header class="w-100">
-        <div class="header ph2 flex justify-between items-center">
-            <!-- Logo -->
-            <div class="logo mr3">
-                <a href="https://wonder.vn/" title="wonder.vn - Kiến trúc, Nội thất và Xây dựng" rel="home">
-                    <img width="157" height="87" src="https://wonder.vn/wp-content/uploads/2017/10/logo-2.png" class="header-logo-dark"
-                        alt="wonder.vn">
-                </a>
+<body class="helvetica">
+  <header class="w-100">
+    <div class="header ph2 flex items-center">
+      <!-- Logo -->
+      <div class="mr3">
+        <a href="#" title="wonder.vn - Kiến trúc, Nội thất và Xây dựng" rel="home">
+          <img width="157" height="87" src="https://wonder.vn/wp-content/uploads/2017/10/logo-2.png"
+            class="header-logo-dark" alt="wonder.vn" />
+        </a>
+      </div><!--End Logo-->
+      <!-- Nav Left -->
+      <div class="flex-auto">
+        <nav class="list flex sans-serif ">
+          <a class="link white-60 hover-white ph2 f4 fw5 " href="">Dự án</a>
+          <a class="link white-60 hover-white ph2 f4 fw5" href="">Bảng giá</a>
+          <a class="link white-60 hover-white ph2 f4 fw5" href="">Dịch Vụ</a>
+          <a class="link white-60 hover-white ph2 f4 fw5" href="">Phong Thủy</a>
+          <a class="link white-60 hover-white ph2 f4 fw5" href="">Giới Thiệu</a>
+          <a class="link white-60 hover-white ph2 f4 fw5" href="">Liên Hệ</a>
+          <a class="link white-60 hover-white ph2 f4 fw5" href=""><i class="fa fa-search"></i></a>
+        </nav>
+      </div>
+      <!-- Nav right -->
+      <div>
+        <ul class="list flex items-center">
+          <li>
+            <a class="link white-60 ph2 hover-white f3" href=""><i class="fa fa-user"></i></a>
+          </li>
+          <li class="br h2 white-30 pl3 "></li>
+          <li>
+            <a class="ml3 link white inline-flex items-center justify-center h2 w2 br-100 mr2 bg-light-silver ba b--black-10"
+              href=""><i class="fa fa-shopping-cart"></i></a>
+          </li>
+        </ul>
+      </div><!-- End Nav -->
+    </div>
+  </header> <!--END HEADER-->
+  <!-- Swiper Carousel -->
+  <div class="vh-100 swiper-container carousel">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div> <!--END CAROUSEL-->
+  <div class="w-100 mv4">
+    <div class="mw8 center tc ">
+      <h3 class="f-subheadline lh-title f3 black-60 mv3">
+        Kiến trúc, nội thất & xây dựng
+      </h3>
+      <p class="mw7 center lh-copy f5 near-black ">
+        Hơn 10 năm kinh nghiệm trong ngành kiến trúc, nội thất và xây dựng,
+        với hàng trăm khách hàng mỗi năm, Wonder là một công ty danh tiếng và
+        đáng tin cậy trong việc cung cấp dịch vụ cho khách hàng tư nhân và
+        doanh nghiệp.
+      </p>
+    </div>
+  </div>
+  <div class="flex flex-row flex-wrap ">
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2019/03/kim-sang-ryur-wonder-thumb-1151x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
             </div>
-            <!--End Logo-->
-
-            <!-- Nav Left -->
-            <div class="flex-auto navbar">
-                <nav class="list flex">
-                    <a class="link white-60 hover-white ph2 " href="">Dự án</a>
-                    <a class="link white-60 hover-white ph2 " href="">Bảng giá</a>
-                    <a class="link white-60 hover-white ph2 " href="">Dịch Vụ</a>
-                    <a class="link white-60 hover-white ph2 " href="">Phong Thủy</a>
-                    <a class="link white-60 hover-white ph2 " href="">Giới Thiệu</a>
-                    <a class="link white-60 hover-white ph2 " href="">Liên Hệ</a>
-                    <a class="link white-60 hover-white ph2 " href=""><i class="fa fa-search"></i></a>
-                </nav>
-            </div><!-- End Nav -->
-            <!-- Nav right -->
-            <div>
-                <ul class="list flex justify-center items-center">
-                    <li><a class="link white-60 ph2 hover-white f3" href=""><i class="fa fa-user"></i></a></li>
-                    <li class="br h2 white-30 pl3 " ></li>
-                    <li>
-                        <a class="ml3 link white inline-flex items-center justify-center h2 w2 br-100 mr2 bg-light-silver ba b--black-10" href=""><i class="fa fa-shopping-cart"></i></a>
-                    </li>
-                </ul>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
             </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2019/03/kim-sang-ryur-wonder-thumb-1151x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2019/03/kita-group-duplex-wonder-thumb-1151x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2019/03/kim-sang-ryur-wonder-thumb-1151x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2019/03/kita-group-can-88m-wonder-thumb-1151x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2019/03/kita-group-2-wonder-thumb-1151x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2019/03/kim-sang-ryur-wonder-thumb-1151x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2019/03/kim-sang-ryur-wonder-thumb-1151x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2018/11/showroom-anh-phu-wonder-thumb-1-1266x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2018/11/chi-phuong-wonder-thumb-1-1266x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2018/11/lakeview-wonder-thumb-1-1266x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="mb0 pt0 ph2 w-25-ns pb3 ">
+      <div class="relative w-100 ">
+        <a class="link" href="">
+          <div class="box-hover">
+            <div class="aspect-ratio aspect-ratio--1x1">
+              <img class="aspect-ratio--object cover"
+                src="https://wonder.vn/wp-content/uploads/2018/10/diamond-lotus-wonder-1-1266x800.jpg" alt=""
+                style="object-fit: cover;z-index: 0;" />
+            </div>
+            <div class="box-text absolute bottom-0 tc w-100 pt4 pb3  ">
+              <div class="box-text-inner">
+                <h6 class="ttu f6 fw6 o-80 white">Kim Sang Ryur</h6>
+                <p class="ttu child" style="font-size: 0.7em">
+                  <span class="white-70  "> Căn hộ, penthouse </span>
+                </p>
+              </div>
+              <!-- box-text-inner -->
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="w-100 ba b--black-10 tc mv3">
+    <a href="#" class="pv2 db bg-navy dim link white f5 fw6">
+      <span>Xem tất cả</span>
+    </a>
+  </div>
+  <div class="tab-content w-100 mv4">
+    <ul class="flex list pt4 tc justify-center">
+      <li><a class="link f3 ph3 black fw6 br b--black-30" href="">Giá thiết kế</a></li>
+      <li><a class="link f3 ph3 black-60 hover-black fw6 br b--black-30 " href="">Giá xây dựng</a></li>
+      <li><a class="link f3 ph3 black-60 hover-black fw6  " href="">Hợp đồng</a></li>
+    </ul>
+    <div class="box bg-light-gray mv4 flex-wrap flex ">
+      <div class="box-small flex-column flex w-25 pa3 pb4 tc">
+        <div class="head-card bg-near-white bb b--black-10">
+          <h1 class="f3">Trọn gói đ/m2</h1>
         </div>
-    </header>
-
+        <div class="body-card bg-white ph5 pv2">
+          <h1 class="dark-blue f1 mv0 lh-title">299,000</h1>
+          <div class="bb b--black-10 pv2">
+            <p class="lh-copy gray">Công trình dân dụng <br>
+              Khách sạn, Resort</p>
+          </div>
+          <div class="pv2 lh-copy">
+            <h2 class="lh-title blue">399,000</h2>
+            <p class="gray">
+              Bar, cafe, nhà hàng <br>
+              Công trình dưới 120m2 <br>
+              Phong cách cổ điển
+            </p>
+          </div>
+          <div class="lh-copy mb3">
+            <h2 class="gray">199,000</h2>
+            <p class="gray">
+              Sân vườn, Cảnh quan <br>
+              Tư vấn thiết kế nhanh
+            </p>
+          </div>
+        </div>
+        <div class="foot-card bg-gray lh-copy near-white">
+          <div class="pv3">
+            <p class="pb1">Bảng vẽ KT, Nội thất</p>
+            <p class="pb1">Kết cấu, M&E</p>
+            <p class="pb1">Hồ sơ xin phép XD</p>
+            <p class="pb1">Giám sát tác giả</p>
+          </div>
+        </div>
+      </div>
+      <div class="box-small flex-column flex w-25 pa3 tc">
+        <div class="head-card bg-near-white bb b--black-10">
+          <h1 class="f3">Trọn gói đ/m2</h1>
+        </div>
+        <div class="body-card bg-white ph5 pv2">
+          <h1 class="dark-blue f1 mv0 lh-title">299,000</h1>
+          <div class="bb b--black-10 pv2">
+            <p class="lh-copy gray">Công trình dân dụng <br>
+              Khách sạn, Resort</p>
+          </div>
+          <div class="pv2 lh-copy">
+            <h2 class="lh-title blue">399,000</h2>
+            <p class="gray">
+              Bar, cafe, nhà hàng <br>
+              Công trình dưới 120m2 <br>
+              Phong cách cổ điển
+            </p>
+          </div>
+          <div class="lh-copy mb3">
+            <h2 class="gray">199,000</h2>
+            <p class="gray">
+              Sân vườn, Cảnh quan <br>
+              Tư vấn thiết kế nhanh
+            </p>
+          </div>
+        </div>
+        <div class="foot-card bg-gray lh-copy near-white">
+          <div class="pv3">
+            <p class="pb1">Bảng vẽ KT, Nội thất</p>
+            <p class="pb1">Kết cấu, M&E</p>
+            <p class="pb1">Hồ sơ xin phép XD</p>
+            <p class="pb1">Giám sát tác giả</p>
+          </div>
+        </div>
+      </div>
+      <div class="box-small flex-column flex w-25 pa3 tc">
+        <div class="head-card bg-near-white bb b--black-10">
+          <h1 class="f3">Trọn gói đ/m2</h1>
+        </div>
+        <div class="body-card bg-white ph5 pv2">
+          <h1 class="dark-blue f1 mv0 lh-title">299,000</h1>
+          <div class="bb b--black-10 pv2">
+            <p class="lh-copy gray">Công trình dân dụng <br>
+              Khách sạn, Resort</p>
+          </div>
+          <div class="pv2 lh-copy">
+            <h2 class="lh-title blue">399,000</h2>
+            <p class="gray">
+              Bar, cafe, nhà hàng <br>
+              Công trình dưới 120m2 <br>
+              Phong cách cổ điển
+            </p>
+          </div>
+          <div class="lh-copy mb3">
+            <h2 class="gray">199,000</h2>
+            <p class="gray">
+              Sân vườn, Cảnh quan <br>
+              Tư vấn thiết kế nhanh
+            </p>
+          </div>
+        </div>
+        <div class="foot-card bg-gray lh-copy near-white">
+          <div class="pv3">
+            <p class="pb1">Bảng vẽ KT, Nội thất</p>
+            <p class="pb1">Kết cấu, M&E</p>
+            <p class="pb1">Hồ sơ xin phép XD</p>
+            <p class="pb1">Giám sát tác giả</p>
+          </div>
+        </div>
+      </div>
+      <div class="box-small flex-column flex w-25 pa3 tc">
+        <div class="head-card bg-near-white bb b--black-10">
+          <h1 class="f3">Trọn gói đ/m2</h1>
+        </div>
+        <div class="body-card bg-white ph5 pv2">
+          <h1 class="dark-blue f1 mv0 lh-title">299,000</h1>
+          <div class="bb b--black-10 pv2">
+            <p class="lh-copy gray">Công trình dân dụng <br>
+              Khách sạn, Resort</p>
+          </div>
+          <div class="pv2 lh-copy">
+            <h2 class="lh-title blue">399,000</h2>
+            <p class="gray">
+              Bar, cafe, nhà hàng <br>
+              Công trình dưới 120m2 <br>
+              Phong cách cổ điển
+            </p>
+          </div>
+          <div class="lh-copy mb3">
+            <h2 class="gray">199,000</h2>
+            <p class="gray">
+              Sân vườn, Cảnh quan <br>
+              Tư vấn thiết kế nhanh
+            </p>
+          </div>
+        </div>
+        <div class="foot-card bg-gray lh-copy near-white">
+          <div class="pv3">
+            <p class="pb1">Bảng vẽ KT, Nội thất</p>
+            <p class="pb1">Kết cấu, M&E</p>
+            <p class="pb1">Hồ sơ xin phép XD</p>
+            <p class="pb1">Giám sát tác giả</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="w-100">
+    <div class="footer1 bg-dark-gray">
+      <div class="mw8 center flex flex-row ">
+        <div class="w-50 white lh-copy mb4 ">
+          <h3 class="pt4 pb4">Tại sao bạn chọn Wonder?</h3>
+          <p>10 năm kinh nghiệm trong ngành kiến trúc, nội thất và xây dựng, với hàng trăm khách hàng mỗi năm, Wonder là
+            một công ty danh tiếng và đáng tin cậy trong việc cung cấp dịch vụ cho khách hàng tư nhân và doanh nghiệp.
+          </p>
+          <br>
+          <p>Wonder áp dụng phong cách thiết kế đơn giản, bố trí nội thất thông minh, ánh sáng tràn ngập không gian với
+            các khung cửa kính lớn và thiên về xu hướng cảnh quan màu xanh lá.</p>
+          <br>
+          <p>Các nhóm thiết kế của Wonder quan tâm đến mọi khía cạnh từ khâu lên ý tưởng, phát triển concept đến thực tế
+            sử dụng. Chúng tôi kết hợp giữa truyền thống và đương đại để phát triển sản phẩm. Tất cả dự án của Wonder là
+            sự kết hợp giữa nghệ thuật kiến trúc và công năng sử dụng.</p>
+          <br>
+          <p>Hơn 50 nhân sự được tuyển chọn có năng lực, thành tích học tập cao, đầy nhiệt huyết và sáng tạo, luôn tiếp
+            thu công nghệ, ứng dụng mới nhất nhằm mục đích hỗ trợ cho kỹ năng thiết kế, xây dựng ngày càng nhanh và đẹp
+            hơn.</p>
+        </div>
+        <div class="w-50 white lh-copy mb4 ">
+          <div class="ml4">
+            <h3 class="pt4 pb4">Liên hệ</h3>
+            <p><strong>HỒ CHÍ MINH</strong></p>
+            <p>90 Nguyễn Tất Thành, P.12, Q.4 <br> +84 90 206 0064 - +84 28 66858855 - saigon4@wonder.vn</p> <br>
+            <p>33 Lê Duẩn, Tòa nhà Deutsches Haus, P.Bến Nghé, Q.1 <br>
+              +84 90 182 9879 - DeutschesHaus@wonder.vn</p> <br>
+            <p>11 Nguyễn Thị Minh Khai, P.Bến Nghé, Q.1 <br>
+              +84 94 994 9293 - +84 28 36204999 - saigon1@wonder.vn</p> <br>
+            <p>Head Office, 53 Trương Định, P.6, Q.3 <br>
+              +84 90 156 6669 - +84 28 66588588 - saigon3@wonder.vn</p> <br>
+            <strong>ĐÀ NẲNG</strong>
+            <p>143 Hoàng Diệu, Q.Hải Châu <br>
+              +84 90 109 9599 - +84 236 3565688 - danang@wonder.vn</p>
+            <p><b>Hotline góp ý: +84 90 522 2225</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer2 bg-black-90">
+      <div class="mw8 center flex flex-row white-80 pt3 pb4  ">
+        <div class="w-50 lh-copy f6">
+          <p class="">
+            Copyright 2017 ©&nbsp;<strong>wonder.vn</strong> - <strong>Kiến trúc, Nội thất và Xây dựng</strong>
+          </p>
+        </div>
+        <div class="w-50 lh-copy f6">
+          <p class="ml4">
+            <span>Wonder chỉ sử dụng các địa chỉ</span> email&nbsp;<strong>@wonder.vn</strong>&nbsp;để liên hệ với khách
+            hàng. Mọi địa chỉ khác đều không hợp lệ và
+            không thuộc sự quản lý, điều hành của chúng tôi.<br>
+            <span></span> Mọi hình ảnh dự án đều thuộc bản quyền của Wonder. Vui
+            lòng ghi rõ nguồn khi copy hình ảnh. Cảm ơn!
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    });
+  </script>
 </body>
 
 </html>

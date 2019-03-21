@@ -1,25 +1,74 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-html{
-    font-size:16px;
-    
-    
-}
-body {
-    font-family: "Helvetica,Arial,sans-serif", sans-serif;
-}
-.header {
-    background-color: rgba(10,10,10,0.52);
-    height: 100px;
-}
-.navbar a{
-    font-weight: 400;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif !important;
+html {
+  font-size: 16px;
 }
 
-    
-    
+.header {
+  background-color: rgba(10, 10, 10, 0.52);
+  height: 100px;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+/* BEGIN CAROUSEL */
+.carousel .swiper-slide:nth-child(1) {
+  background-image: url(../img/SLIDER-T-HOUSE-WONDER.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel .swiper-slide:nth-child(2) {
+  background-image: url(../img/slider.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel .swiper-slide:nth-child(3) {
+  background-image: url(../img/wonder-slide-showroom-anh-phu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel .swiper-slide:nth-child(4) {
+  background-image: url(../img/slider.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* END CAROUSEL */
+.box-text .box-text-inner p {
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.3s, max-height 0.6s, filter 0.6s;
+  filter: blur(0);
+  -webkit-transition: opacity 0.5s, transform 0.3s, max-height 0.6s, filter 0.6s;
+  -moz-transition: opacity 0.5s, transform 0.3s, max-height 0.6s, filter 0.6s;
+  -ms-transition: opacity 0.5s, transform 0.3s, max-height 0.6s, filter 0.6s;
+  -o-transition: opacity 0.5s, transform 0.3s, max-height 0.6s, filter 0.6s;
+}
+
+.box-hover:hover .box-text .box-text-inner p {
+  opacity: 1;
+}
+.box-hover:hover .box-text {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6979166666666667) 0%,
+    rgba(0, 0, 0, 0.5046393557422969) 22%,
+    rgba(0, 0, 0, 0.4009978991596639) 58%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.tab-content .box .box-small .body-card {
+  transition: all ease-in 0.3s;
+  -webkit-transition: all ease-in 0.3s;
+  -moz-transition: all ease-in 0.3s;
+  -ms-transition: all ease-in 0.3s;
+  -o-transition: all ease-in 0.3s;
+}
+.tab-content .box .box-small .body-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
