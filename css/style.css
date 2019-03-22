@@ -14,9 +14,9 @@ html {
   width: 100%;
 }
 /* BEGIN CAROUSEL */
-.carousel .swiper-slide:nth-child(1) {
+/* .carousel .swiper-slide:nth-child(1) {
   background-image: url(../img/SLIDER-T-HOUSE-WONDER.jpg);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
 }
 
@@ -36,7 +36,7 @@ html {
   background-image: url(../img/slider.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
+} */
 
 /* END CAROUSEL */
 .box-text .box-text-inner p {
