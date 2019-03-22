@@ -8,14 +8,18 @@ html {
 }
 .header {
   background-color: rgba(10, 10, 10, 0.52);
-  /* height: 100px; */
+  height: 100px;
   position: absolute;
   z-index: 10;
   width: 100%;
 }
 .sub-menu{
-  /* display: none !important; */
+  display: none;
 }
+li:hover .sub-menu{
+  display: flex;
+}
+
 
 /* BEGIN CAROUSEL */
 /* .carousel .swiper-slide:nth-child(1) {
