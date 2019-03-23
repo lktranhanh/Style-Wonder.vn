@@ -6,46 +6,12 @@
 html {
   font-size: 16px;
 }
-.header {
-  background-color: rgba(10, 10, 10, 0.52);
-  height: 100px;
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-}
 .sub-menu{
   display: none;
 }
 li:hover .sub-menu{
   display: flex;
 }
-
-
-/* BEGIN CAROUSEL */
-/* .carousel .swiper-slide:nth-child(1) {
-  background-image: url(../img/SLIDER-T-HOUSE-WONDER.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-}
-
-.carousel .swiper-slide:nth-child(2) {
-  background-image: url(../img/slider.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.carousel .swiper-slide:nth-child(3) {
-  background-image: url(../img/wonder-slide-showroom-anh-phu.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.carousel .swiper-slide:nth-child(4) {
-  background-image: url(../img/slider.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 /* END CAROUSEL */
 .box-text .box-text-inner p {
   opacity: 0;
