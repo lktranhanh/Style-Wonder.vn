@@ -29,7 +29,8 @@
       <!-- Nav Left -->
       <!-- Mobile responsive -->
       <nav class="white-80 dn-ns">
-          <i class="fa fa-bars"></i>
+        <button onclick="Showitem()" class="bg-transparent bn "><i class="fa fa-bars"></i> </button>  
+        
       </nav>
       <div class="menu-left flex-auto-ns flex-ns dn order-0 ">        
         <ul class="list flex-ns  sans-serif ">
@@ -524,17 +525,20 @@
     </a>
   </div>
   <div class="tab-content w-100 mv4">
-    <ul class="flex  list pt4 tc justify-center">
-      <li><a class="link f3 ph3-ns black fw6 br-ns b--black-30" href="">Giá thiết kế</a></li>
-      <li><a class="link f3 ph3-ns black-60 hover-black fw6 br-ns b--black-30 " href="">Giá xây dựng</a></li>
-      <li><a class="link f3 ph3-ns black-60 hover-black fw6  " href="">Hợp đồng</a></li>
+    <!-- Title tab -->
+    <ul class="flex list flex-wrap flex-row-ns pt4 tc justify-center">
+      <li class="dib pa3"><a class="link f3  ph3-ns black fw6 br-ns b--black-30" href="">Giá thiết kế</a></li>
+      <li class="dib pa3"><a class="link f3  ph3-ns black-60 hover-black fw6 br-ns b--black-30 " href="">Giá xây dựng</a></li>
+      <li class="dib pa3"><a class="link f3  ph3-ns black-60 hover-black fw6  " href="">Hợp đồng</a></li>
     </ul>
-    <div class="box bg-light-gray mv4 flex-wrap flex flex-row-ns flex-column">
-      <div class="box-small flex-column flex w-25-ns  w-50-m w-100 pa3 pb4 tc">
+    <!-- Card -->
+    <div class="box bg-light-gray mv4 mw9 center flex-wrap flex flex-row-ns flex-column">
+      <div class="box-small flex-column flex w-25-ns w-50-m w-100 pa2 pb4 tc">
+        <div class="box-hover">
         <div class="head-card bg-near-white bb b--black-10">
-          <h1 class="f3">Trọn gói đ/m2</h1>
+          <h2 class="f4 pa3">Trọn gói đ/m²</h2>
         </div>
-        <div class="body-card bg-white ph5 pv2">
+        <div class="body-card bg-white ph4 pv2">
           <h1 class="dark-blue f1-ns mv0 lh-title">299,000</h1>
           <div class="bb b--black-10 pv2">
             <p class="lh-copy gray">Công trình dân dụng <br>
@@ -556,6 +560,7 @@
             </p>
           </div>
         </div>
+      </div>
         <div class="foot-card bg-gray lh-copy near-white">
           <div class="pv3">
             <p class="pb1">Bảng vẽ KT, Nội thất</p>
@@ -565,12 +570,13 @@
           </div>
         </div>
       </div>
-      <div class="box-small flex-column flex w-25-ns w-50-m w-100 pa3 tc">
+      <div class="box-small flex-column flex w-25-ns w-50-m w-100 pa2 pb4 tc">
+        <div class="box-hover">
         <div class="head-card bg-near-white bb b--black-10">
-          <h1 class="f3">Trọn gói đ/m2</h1>
+          <h2 class="f4 pa3">Kiến trúc đ/m²</h2>
         </div>
-        <div class="body-card bg-white ph5 pv2">
-          <h1 class="dark-blue f1-ns mv0 lh-title">299,000</h1>
+        <div class="body-card bg-white ph4 pv2">
+          <h1 class="dark-blue f1-ns mv0 lh-title">199,000</h1>
           <div class="bb b--black-10 pv2">
             <p class="lh-copy gray">Công trình dân dụng <br>
               Khách sạn, Resort</p>
@@ -591,6 +597,7 @@
             </p>
           </div>
         </div>
+      </div>
         <div class="foot-card bg-gray lh-copy near-white">
           <div class="pv3">
             <p class="pb1">Bảng vẽ KT, Nội thất</p>
@@ -600,77 +607,84 @@
           </div>
         </div>
       </div>
-      <div class="box-small flex-column flex w-25-ns w-50-m w-100 pa3 tc">
-        <div class="head-card bg-near-white bb b--black-10">
-          <h1 class="f3">Trọn gói đ/m2</h1>
-        </div>
-        <div class="body-card bg-white ph5 pv2">
-          <h1 class="dark-blue f1-ns mv0 lh-title">299,000</h1>
-          <div class="bb b--black-10 pv2">
-            <p class="lh-copy gray">Công trình dân dụng <br>
-              Khách sạn, Resort</p>
+      <div class="box-small flex-column flex w-25-ns w-50-m w-100 pa2 pb4 tc">
+          <div class="box-hover">
+          <div class="head-card bg-near-white bb b--black-10">
+            <h2 class="f4 pa3">Nội thất đ/m²</h2>
           </div>
-          <div class="pv2 lh-copy">
-            <h2 class="lh-title blue">399,000</h2>
-            <p class="gray">
-              Bar, cafe, nhà hàng <br>
-              Công trình dưới 120m2 <br>
-              Phong cách cổ điển
-            </p>
-          </div>
-          <div class="lh-copy mb3">
-            <h2 class="gray">199,000</h2>
-            <p class="gray">
-              Sân vườn, Cảnh quan <br>
-              Tư vấn thiết kế nhanh
-            </p>
-          </div>
-        </div>
-        <div class="foot-card bg-gray lh-copy near-white">
-          <div class="pv3">
-            <p class="pb1">Bảng vẽ KT, Nội thất</p>
-            <p class="pb1">Kết cấu, M&E</p>
-            <p class="pb1">Hồ sơ xin phép XD</p>
-            <p class="pb1">Giám sát tác giả</p>
+          <div class="body-card bg-white ph4 pv2">
+            <h1 class="dark-blue f1-ns mv0 lh-title">199,000</h1>
+            <div class="bb b--black-10 pv2">
+              <p class="lh-copy gray">Công trình dân dụng <br>
+                Khách sạn, Resort</p>
+            </div>
+            <div class="pv2 lh-copy">
+              <h2 class="lh-title blue">399,000</h2>
+              <p class="gray">
+                Bar, cafe, nhà hàng <br>
+                Công trình dưới 120m2 <br>
+                Phong cách cổ điển
+              </p>
+            </div>
+            <div class="lh-copy mb3">
+              <h2 class="gray">199,000</h2>
+              <p class="gray">
+                Sân vườn, Cảnh quan <br>
+                Tư vấn thiết kế nhanh
+              </p>
+            </div>
           </div>
         </div>
+          <div class="foot-card bg-gray lh-copy near-white">
+            <div class="pv3">
+              <p class="pb1">Bảng vẽ KT, Nội thất</p>
+              <p class="pb1">Kết cấu, M&E</p>
+              <p class="pb1">Hồ sơ xin phép XD</p>
+              <p class="pb1">.</p>
+            </div>
+          </div>
       </div>
-      <div class="box-small flex-column flex w-25-ns w-50-m w-100 pa3 tc">
-        <div class="head-card bg-near-white bb b--black-10">
-          <h1 class="f3">Trọn gói đ/m2</h1>
-        </div>
-        <div class="body-card bg-white ph5 pv2">
-          <h1 class="dark-blue f1-ns mv0 lh-title">299,000</h1>
-          <div class="bb b--black-10 pv2">
-            <p class="lh-copy gray">Công trình dân dụng <br>
-              Khách sạn, Resort</p>
+      <div class="box-small flex-column flex w-25-ns w-50-m w-100 pa2 pb4 tc">
+          <div class="hehe">
+          <div class="head-card bg-navy bb b--black-10">
+            <h2 class="f4 pa3 white">Free thiết kế</h2>
           </div>
-          <div class="pv2 lh-copy">
-            <h2 class="lh-title blue">399,000</h2>
-            <p class="gray">
-              Bar, cafe, nhà hàng <br>
-              Công trình dưới 120m2 <br>
-              Phong cách cổ điển
-            </p>
-          </div>
-          <div class="lh-copy mb3">
-            <h2 class="gray">199,000</h2>
-            <p class="gray">
-              Sân vườn, Cảnh quan <br>
-              Tư vấn thiết kế nhanh
-            </p>
-          </div>
-        </div>
-        <div class="foot-card bg-gray lh-copy near-white">
-          <div class="pv3">
-            <p class="pb1">Bảng vẽ KT, Nội thất</p>
-            <p class="pb1">Kết cấu, M&E</p>
-            <p class="pb1">Hồ sơ xin phép XD</p>
-            <p class="pb1">Giám sát tác giả</p>
+          <div class="body-card bg-dark-blue ph4 pv2">
+            <h1 class="white f1-ns mv0 lh-title">Free</h1>
+            <div class="bb b--black-10 pv2">
+              <p class="lh-copy white">KHI THI CÔNG <br>
+                  Trọn gói XD, nội thất
+              </p>
+            </div>
+            <div class="pv2 lh-copy white">
+              <h2 class="lh-title">2,899tr – 3,099tr</h2>
+              <p class="">
+                Bar, cafe, nhà hàng <br>
+                Công trình dưới 120m2 <br>
+                Phong cách cổ điển
+              </p>
+            </div>
+            <div class="lh-copy mb3 white">
+              <h2 class="">3,299tr – 3,499tr</h2>
+              <p class="">
+                Sân vườn, Cảnh quan <br>
+                Tư vấn thiết kế nhanh
+              </p>
+            </div>
           </div>
         </div>
+          <div class="foot-card bg-gray lh-copy near-white">
+            <div class="pv3">
+              <p class="pb1">Hầm nhân hệ số 1.9</p>
+              <p class="pb1">Bán hầm nhân hệ số 1.7 </p>
+              <p class="pb1">Mái hệ số 0.5</p>
+              <p class="pb1">*Giá chưa cọc, cừ tràm</p>
+            </div>
+          </div>
       </div>
+      
     </div>
+    
   </div>
   <footer class="w-100">
     <div class="footer1 bg-dark-gray">
@@ -712,14 +726,14 @@
       </div>
     </div>
     <div class="footer2 bg-black-90">
-      <div class="mw8 center ph3 ph0-ns flex flex-row-ns flex-column  white-80 pt3 pb4  ">
+      <div class="mw8 center ph3 ph0-ns flex flex-row-ns flex-column  white-80 pt3 pb4   ">
         <div class="w-50-ns lh-copy pv2 f6">
-          <p class="">
+          <p class="tl-ns tc ">
             Copyright 2017 ©&nbsp;<strong>wonder.vn</strong> - <strong>Kiến trúc, Nội thất và Xây dựng</strong>
           </p>
         </div>
         <div class="w-50-ns lh-copy f6">
-          <p class="ml4-ns">
+          <p class="ml4-ns tl-ns pv2 tc">
             <span>Wonder chỉ sử dụng các địa chỉ</span> email&nbsp;<strong>@wonder.vn</strong>&nbsp;để liên hệ với khách
             hàng. Mọi địa chỉ khác đều không hợp lệ và
             không thuộc sự quản lý, điều hành của chúng tôi.<br>
